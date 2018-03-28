@@ -1,7 +1,7 @@
 {
   "name": "@parity/dapp-dapp-methods",
   "description": "Allow setting of dapp permissions on a per method level",
-  "version": "2.0.19",
+  "version": "2.0.20",
   "main": "index.js",
   "author": "Parity Team <admin@parity.io>",
   "maintainers": [],
@@ -32,7 +32,8 @@
   "scripts": {
     "start": "react-scripts start",
     "watch": "node scripts/watch.js",
-    "build": "react-scripts build",
+    "build": "react-scripts build && yarn build:messages",
+    "build:messages": "webpack --config scripts/messages.webpack.js",
     "lint": "eslint src/**/*.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
