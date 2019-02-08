@@ -1,7 +1,7 @@
 {
   "name": "@parity/dapp-dapp-methods",
   "description": "Allow setting of dapp permissions on a per method level",
-  "version": "2.0.41",
+  "version": "2.0.42",
   "main": "index.js",
   "author": "Parity Team <admin@parity.io>",
   "maintainers": [],
@@ -50,7 +50,7 @@
     "react-intl": "^2.8.0",
     "react-scripts": "1.0.17",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.84.0"
+    "semantic-ui-react": "^0.85.0"
   },
   "devDependencies": {
     "enzyme": "^3.8.0",
