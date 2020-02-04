@@ -1,7 +1,7 @@
 {
   "name": "@parity/dapp-dapp-methods",
   "description": "Allow setting of dapp permissions on a per method level",
-  "version": "2.0.85",
+  "version": "2.0.86",
   "main": "index.js",
   "author": "Parity Team <admin@parity.io>",
   "maintainers": [],
@@ -55,6 +55,6 @@
   "devDependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
-    "enzyme-to-json": "^3.4.3"
+    "enzyme-to-json": "^3.4.4"
   }
 }
